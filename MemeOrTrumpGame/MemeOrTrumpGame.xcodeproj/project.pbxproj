@@ -13,20 +13,20 @@
 		BC6BD9922231A620000EEF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9912231A620000EEF25 /* Assets.xcassets */; };
 		BC6BD9952231A620000EEF25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9932231A620000EEF25 /* LaunchScreen.storyboard */; };
 		BC6BD9982231A620000EEF25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BD9972231A620000EEF25 /* main.m */; };
-		BC6BD9AC2232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.35.54 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD99E2232E067000EEF25 /* Screen Shot 2019-03-08 at 12.35.54 PM.png */; };
 		BC6BD9AD2232E06C000EEF25 /* Trump6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD99F2232E067000EEF25 /* Trump6.png */; };
 		BC6BD9AE2232E06C000EEF25 /* Trump5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A02232E068000EEF25 /* Trump5.png */; };
-		BC6BD9AF2232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.05 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A12232E068000EEF25 /* Screen Shot 2019-03-08 at 12.36.05 PM.png */; };
 		BC6BD9B02232E06C000EEF25 /* Trump4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A22232E068000EEF25 /* Trump4.jpeg */; };
 		BC6BD9B12232E06C000EEF25 /* Trump3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A32232E068000EEF25 /* Trump3.jpeg */; };
 		BC6BD9B22232E06C000EEF25 /* Trump2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A42232E069000EEF25 /* Trump2.jpg */; };
-		BC6BD9B32232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.35.23 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A52232E069000EEF25 /* Screen Shot 2019-03-08 at 12.35.23 PM.png */; };
-		BC6BD9B42232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.55 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A62232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.55 PM.png */; };
-		BC6BD9B52232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.38 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A72232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.38 PM.png */; };
-		BC6BD9B62232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.13 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A82232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.13 PM.png */; };
 		BC6BD9B72232E06C000EEF25 /* Trump1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9A92232E06B000EEF25 /* Trump1.jpg */; };
-		BC6BD9B82232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.25 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9AA2232E06B000EEF25 /* Screen Shot 2019-03-08 at 12.36.25 PM.png */; };
 		BC6BD9B92232E06C000EEF25 /* Fake1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9AB2232E06B000EEF25 /* Fake1.png */; };
+		BC6BD9C12232E677000EEF25 /* Fake5.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BA2232E675000EEF25 /* Fake5.png */; };
+		BC6BD9C22232E677000EEF25 /* Fake6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BB2232E676000EEF25 /* Fake6.png */; };
+		BC6BD9C32232E677000EEF25 /* Fake8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BC2232E676000EEF25 /* Fake8.png */; };
+		BC6BD9C42232E677000EEF25 /* Fake7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BD2232E676000EEF25 /* Fake7.png */; };
+		BC6BD9C52232E677000EEF25 /* Fake2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BE2232E676000EEF25 /* Fake2.png */; };
+		BC6BD9C62232E677000EEF25 /* Fake3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BF2232E676000EEF25 /* Fake3.png */; };
+		BC6BD9C72232E677000EEF25 /* Fake4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9C02232E677000EEF25 /* Fake4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,20 +40,20 @@
 		BC6BD9942231A620000EEF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC6BD9962231A620000EEF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC6BD9972231A620000EEF25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC6BD99E2232E067000EEF25 /* Screen Shot 2019-03-08 at 12.35.54 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-08 at 12.35.54 PM.png"; sourceTree = "<group>"; };
 		BC6BD99F2232E067000EEF25 /* Trump6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trump6.png; sourceTree = "<group>"; };
 		BC6BD9A02232E068000EEF25 /* Trump5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trump5.png; sourceTree = "<group>"; };
-		BC6BD9A12232E068000EEF25 /* Screen Shot 2019-03-08 at 12.36.05 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-08 at 12.36.05 PM.png"; sourceTree = "<group>"; };
 		BC6BD9A22232E068000EEF25 /* Trump4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trump4.jpeg; sourceTree = "<group>"; };
 		BC6BD9A32232E068000EEF25 /* Trump3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trump3.jpeg; sourceTree = "<group>"; };
 		BC6BD9A42232E069000EEF25 /* Trump2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trump2.jpg; sourceTree = "<group>"; };
-		BC6BD9A52232E069000EEF25 /* Screen Shot 2019-03-08 at 12.35.23 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-08 at 12.35.23 PM.png"; sourceTree = "<group>"; };
-		BC6BD9A62232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.55 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-08 at 12.36.55 PM.png"; sourceTree = "<group>"; };
-		BC6BD9A72232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.38 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-08 at 12.36.38 PM.png"; sourceTree = "<group>"; };
-		BC6BD9A82232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.13 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-08 at 12.36.13 PM.png"; sourceTree = "<group>"; };
 		BC6BD9A92232E06B000EEF25 /* Trump1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trump1.jpg; sourceTree = "<group>"; };
-		BC6BD9AA2232E06B000EEF25 /* Screen Shot 2019-03-08 at 12.36.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-08 at 12.36.25 PM.png"; sourceTree = "<group>"; };
 		BC6BD9AB2232E06B000EEF25 /* Fake1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake1.png; sourceTree = "<group>"; };
+		BC6BD9BA2232E675000EEF25 /* Fake5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake5.png; sourceTree = "<group>"; };
+		BC6BD9BB2232E676000EEF25 /* Fake6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake6.png; sourceTree = "<group>"; };
+		BC6BD9BC2232E676000EEF25 /* Fake8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake8.png; sourceTree = "<group>"; };
+		BC6BD9BD2232E676000EEF25 /* Fake7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake7.png; sourceTree = "<group>"; };
+		BC6BD9BE2232E676000EEF25 /* Fake2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake2.png; sourceTree = "<group>"; };
+		BC6BD9BF2232E676000EEF25 /* Fake3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake3.png; sourceTree = "<group>"; };
+		BC6BD9C02232E677000EEF25 /* Fake4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +86,14 @@
 		BC6BD9872231A61B000EEF25 /* MemeOrTrumpGame */ = {
 			isa = PBXGroup;
 			children = (
+				BC6BD9BE2232E676000EEF25 /* Fake2.png */,
+				BC6BD9BF2232E676000EEF25 /* Fake3.png */,
+				BC6BD9C02232E677000EEF25 /* Fake4.png */,
+				BC6BD9BA2232E675000EEF25 /* Fake5.png */,
+				BC6BD9BB2232E676000EEF25 /* Fake6.png */,
+				BC6BD9BD2232E676000EEF25 /* Fake7.png */,
+				BC6BD9BC2232E676000EEF25 /* Fake8.png */,
 				BC6BD9AB2232E06B000EEF25 /* Fake1.png */,
-				BC6BD9A52232E069000EEF25 /* Screen Shot 2019-03-08 at 12.35.23 PM.png */,
-				BC6BD99E2232E067000EEF25 /* Screen Shot 2019-03-08 at 12.35.54 PM.png */,
-				BC6BD9A12232E068000EEF25 /* Screen Shot 2019-03-08 at 12.36.05 PM.png */,
-				BC6BD9A82232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.13 PM.png */,
-				BC6BD9AA2232E06B000EEF25 /* Screen Shot 2019-03-08 at 12.36.25 PM.png */,
-				BC6BD9A72232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.38 PM.png */,
-				BC6BD9A62232E06A000EEF25 /* Screen Shot 2019-03-08 at 12.36.55 PM.png */,
 				BC6BD9A92232E06B000EEF25 /* Trump1.jpg */,
 				BC6BD9A42232E069000EEF25 /* Trump2.jpg */,
 				BC6BD9A32232E068000EEF25 /* Trump3.jpeg */,
@@ -170,22 +170,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6BD9C32232E677000EEF25 /* Fake8.png in Resources */,
 				BC6BD9952231A620000EEF25 /* LaunchScreen.storyboard in Resources */,
-				BC6BD9B52232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.38 PM.png in Resources */,
-				BC6BD9AC2232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.35.54 PM.png in Resources */,
+				BC6BD9C42232E677000EEF25 /* Fake7.png in Resources */,
+				BC6BD9C22232E677000EEF25 /* Fake6.png in Resources */,
 				BC6BD9AE2232E06C000EEF25 /* Trump5.png in Resources */,
 				BC6BD9B02232E06C000EEF25 /* Trump4.jpeg in Resources */,
+				BC6BD9C62232E677000EEF25 /* Fake3.png in Resources */,
 				BC6BD9922231A620000EEF25 /* Assets.xcassets in Resources */,
-				BC6BD9AF2232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.05 PM.png in Resources */,
 				BC6BD9B92232E06C000EEF25 /* Fake1.png in Resources */,
-				BC6BD9B62232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.13 PM.png in Resources */,
-				BC6BD9B32232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.35.23 PM.png in Resources */,
-				BC6BD9B42232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.55 PM.png in Resources */,
 				BC6BD9B12232E06C000EEF25 /* Trump3.jpeg in Resources */,
 				BC6BD9902231A61B000EEF25 /* Main.storyboard in Resources */,
-				BC6BD9B82232E06C000EEF25 /* Screen Shot 2019-03-08 at 12.36.25 PM.png in Resources */,
 				BC6BD9AD2232E06C000EEF25 /* Trump6.png in Resources */,
+				BC6BD9C12232E677000EEF25 /* Fake5.png in Resources */,
 				BC6BD9B22232E06C000EEF25 /* Trump2.jpg in Resources */,
+				BC6BD9C52232E677000EEF25 /* Fake2.png in Resources */,
+				BC6BD9C72232E677000EEF25 /* Fake4.png in Resources */,
 				BC6BD9B72232E06C000EEF25 /* Trump1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
