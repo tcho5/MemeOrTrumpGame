@@ -14,8 +14,6 @@
 
 @implementation ViewController
   
-@synthesize score;
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];

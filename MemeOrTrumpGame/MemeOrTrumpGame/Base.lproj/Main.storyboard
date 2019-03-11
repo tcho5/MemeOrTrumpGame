@@ -34,13 +34,6 @@
                                     <segue destination="5Tk-Eg-f4q" kind="show" id="A3R-FT-8do"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xor-9O-1ex">
-                                <rect key="frame" x="26" y="358" width="94" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Real Trump or Fake Trump Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sha-36-flB">
                                 <rect key="frame" x="43" y="35" width="250" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -54,7 +47,6 @@
                     </view>
                     <connections>
                         <outlet property="fakeTrumpImageIntro" destination="aJf-J7-YyV" id="f6g-sg-1O7"/>
-                        <outlet property="score" destination="xor-9O-1ex" id="kgF-F9-3JD"/>
                         <outlet property="trumpImageIntro" destination="4YQ-ke-duj" id="Hhi-dB-3Tc"/>
                     </connections>
                 </viewController>
@@ -71,7 +63,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btd-dk-vn9">
-                                <rect key="frame" x="131" y="625" width="76" height="30"/>
+                                <rect key="frame" x="53" y="617" width="76" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Main Menu"/>
                                 <connections>
@@ -82,14 +74,20 @@
                                 <rect key="frame" x="48" y="528" width="87" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="FAKE"/>
+                                <connections>
+                                    <action selector="fakeButtonPressed" destination="5Tk-Eg-f4q" eventType="touchDown" id="gPs-xb-5RN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfL-MH-ml1">
                                 <rect key="frame" x="210" y="528" width="93" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="REAL"/>
+                                <connections>
+                                    <action selector="realButtonPressed" destination="5Tk-Eg-f4q" eventType="touchDown" id="D0y-Uf-iGC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SCORE: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5m-Bh-18f">
-                                <rect key="frame" x="131" y="587" width="65" height="21"/>
+                                <rect key="frame" x="131" y="587" width="172" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -99,12 +97,21 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="479"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eh-H4-YfJ">
+                                <rect key="frame" x="208" y="617" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Restart"/>
+                                <connections>
+                                    <action selector="restart" destination="5Tk-Eg-f4q" eventType="touchDown" id="wje-p3-NyK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0em-Q0-V1l"/>
                     </view>
                     <connections>
                         <outlet property="gameImage" destination="od0-uJ-tQb" id="kGp-Ix-xl5"/>
+                        <outlet property="score" destination="L5m-Bh-18f" id="8uq-gp-ZkM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rgO-FO-0AE" userLabel="First Responder" sceneMemberID="firstResponder"/>

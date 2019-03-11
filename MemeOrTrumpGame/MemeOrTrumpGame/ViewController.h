@@ -15,7 +15,5 @@
 }
 
 //-(IBAction)randomaImageButton;
-@property (nonatomic, strong) IBOutlet UILabel *score;
-
 @end
 

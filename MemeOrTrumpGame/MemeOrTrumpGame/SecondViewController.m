@@ -14,29 +14,35 @@
 
 @implementation SecondViewController{
     NSArray *imageList;
+    NSString *imageName;
+    NSString *buttonPressed;
+    NSInteger *scoreVal;
     
 }
+@synthesize score;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //imageList = @{};
     imageList = [NSArray arrayWithObjects: @"Trump1.jpg", @"Fake1.png", @"Trump2.jpg", @"Fake2.png", @"Trump3.jpeg", @"Fake3.png",@"Trump4.jpeg",@"Fake4.png", @"Trump5.png", @"Fake5.png",@"Trump6.png", @"Fake6.png", @"Fake7.png", nil];
+    buttonPressed = @"none";
+    //score.text = buttonPressed;
+    scoreVal = 0;
+    score.text = @"Score: 0";
     [self startGame];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 - (void)startGame {
-    [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(handleTimer:) userInfo:nil repeats:YES];
+    int randomNumber = rand() % 12;
+    [self changeImage:randomNumber];
+//    while(![score.text isEqualToString:@"GAME OVER"]){
+//        int randomNumber = rand() % 12;
+//        [self changeImage:randomNumber];
+    [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(handleTimer:) userInfo:nil repeats:NO];
+//    }
+
 
 
 //    [self changeImage:randomNumber];
@@ -44,14 +50,43 @@
     
 }
 - (void) handleTimer:(NSTimer *)timer {
-    int randomNumber = rand() % 12;
-    [self changeImage:randomNumber];
+    //score.text = buttonPressed;
+    NSString *firstLetterUser = [buttonPressed substringToIndex:1];
+    NSString *firstLeterImage = [imageName substringToIndex:1];
+    if([firstLetterUser isEqualToString:firstLeterImage]){
+        scoreVal += 1;
+        score.text = [NSString stringWithFormat:@"Score: %ld", scoreVal];
+        buttonPressed = @"Trump";
+        [self startGame];
+    }else{
+        score.text = @"GAMEOVER";
+        [timer invalidate];
+        //[self.timer invalidate];
+    }
+    
+
 }
 - (void)changeImage:(int)index {
-    NSString *image = [imageList objectAtIndex: index];
-    gameImage.image = [UIImage imageNamed:image];
-    //gameImage.image = [UIImage imageNamed:@"Trump4.jpeg"];
+    imageName = [imageList objectAtIndex: index];
+    gameImage.image = [UIImage imageNamed:imageName];
     
+}
+
+-(IBAction)realButtonPressed{
+    buttonPressed = @"Trump";
+    //score.text = @"ReAl";
+}
+
+-(IBAction)fakeButtonPressed{
+    buttonPressed = @"Fake";
+    //score.text = @"FaKe";
+
+}
+-(IBAction)restart{
+    scoreVal = 0;
+    score.text = @"Score: ";
+    buttonPressed = @"none";
+    [self startGame];
 }
 
 @end
