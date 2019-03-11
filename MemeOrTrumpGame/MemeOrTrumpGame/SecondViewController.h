@@ -7,19 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SecondViewController : UIViewController{
     IBOutlet UIImageView *gameImage;
-//    IBOutlet UIButton *realButton;
-//    IBOutlet UIButton *fakeButton;
+    IBOutlet UIButton *realButton;
+    IBOutlet UIButton *fakeButton;
+    IBOutlet UIButton *mainMenuButton;
+    IBOutlet UIButton *restartButton;
+
+
 //    IBOutlet UILabel *score;
 }
 
 @property (nonatomic, strong) IBOutlet UILabel *score;
-//@property (nonatomic, retain) IBOutlet UIButton *realButton;
-//@property (nonatomic, retain) IBOutlet UIButton *fakeButton;
+
+
+
 
 -(void)onButtonClick:(UIButton*)sender;
 -(IBAction)realButtonPressed;

@@ -23,7 +23,28 @@
 
 
 - (void)viewDidLoad {
+    realButton.layer.borderWidth =2.0f;
+    realButton.backgroundColor = [UIColor grayColor];
+    realButton.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor;
+
+    fakeButton.layer.borderWidth =2.0f;
+    fakeButton.backgroundColor = [UIColor grayColor];
+    fakeButton.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor;
+
+    restartButton.layer.borderWidth = 2.0f;
+    restartButton.backgroundColor = [UIColor grayColor];
+    restartButton.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor;
+
+    mainMenuButton.layer.borderWidth = 2.0f;
+    mainMenuButton.backgroundColor = [UIColor grayColor];
+    mainMenuButton.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor;
+
+    gameImage.layer.borderWidth = 2.0f;
+    gameImage.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor; 
+
+    
     [super viewDidLoad];
+    //self.view.backgroundColor = [UIColor blackColor];
     // Do any additional setup after loading the view.
     //imageList = @{};
     imageList = [NSArray arrayWithObjects: @"Trump1.jpg", @"Fake1.png", @"Trump2.jpg", @"Fake2.png", @"Trump3.jpeg", @"Fake3.png",@"Trump4.jpeg",@"Fake4.png", @"Trump5.png", @"Fake5.png",@"Trump6.png", @"Fake6.png", @"Fake7.png", nil];
@@ -40,7 +61,7 @@
 //    while(![score.text isEqualToString:@"GAME OVER"]){
 //        int randomNumber = rand() % 12;
 //        [self changeImage:randomNumber];
-    [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(handleTimer:) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:1.3f target:self selector:@selector(handleTimer:) userInfo:nil repeats:NO];
 //    }
 
 
@@ -56,7 +77,7 @@
     if([firstLetterUser isEqualToString:firstLeterImage]){
         scoreVal += 1;
         score.text = [NSString stringWithFormat:@"Score: %ld", scoreVal];
-        buttonPressed = @"Trump";
+        buttonPressed = @"none";
         [self startGame];
     }else{
         score.text = @"GAMEOVER";

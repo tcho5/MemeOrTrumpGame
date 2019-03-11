@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController{
     IBOutlet UIImageView *trumpImageIntro;
     IBOutlet UIImageView *fakeTrumpImageIntro;
+    IBOutlet UIButton *startButton;
 
 }
 
