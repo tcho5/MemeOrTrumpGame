@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController{
-    IBOutlet UIImageView *trumpImageIntro; //Implemented for random images
+    IBOutlet UIImageView *trumpImageIntro;
     IBOutlet UIImageView *fakeTrumpImageIntro;
 
 }
 
+//-(IBAction)randomaImageButton;
 @property (nonatomic, strong) IBOutlet UILabel *score;
 
 @end
