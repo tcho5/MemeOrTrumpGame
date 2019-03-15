@@ -25,23 +25,17 @@
 - (void)viewDidLoad {
     realButton.layer.borderWidth =2.0f;
     realButton.backgroundColor = [UIColor grayColor];
-    realButton.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor;
 
     fakeButton.layer.borderWidth =2.0f;
     fakeButton.backgroundColor = [UIColor grayColor];
-    fakeButton.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor;
 
     restartButton.layer.borderWidth = 2.0f;
     restartButton.backgroundColor = [UIColor grayColor];
-    restartButton.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor;
 
     mainMenuButton.layer.borderWidth = 2.0f;
     mainMenuButton.backgroundColor = [UIColor grayColor];
-    mainMenuButton.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor;
 
     gameImage.layer.borderWidth = 2.0f;
-    gameImage.layer.borderColor = [UIColor colorWithRed:0x21 / 255.0 green:0xce / 255.0 blue:0x99 / 255.0 alpha:1.0].CGColor; 
-
     
     [super viewDidLoad];
     //self.view.backgroundColor = [UIColor blackColor];
