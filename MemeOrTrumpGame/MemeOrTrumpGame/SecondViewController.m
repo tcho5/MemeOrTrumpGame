@@ -55,7 +55,7 @@
 //    while(![score.text isEqualToString:@"GAME OVER"]){
 //        int randomNumber = rand() % 12;
 //        [self changeImage:randomNumber];
-    [NSTimer scheduledTimerWithTimeInterval:1.3f target:self selector:@selector(handleTimer:) userInfo:nil repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:10.0f target:self selector:@selector(handleTimer:) userInfo:nil repeats:NO];
 //    }
 
 

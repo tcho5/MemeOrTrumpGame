@@ -24,7 +24,6 @@
 		BC6BD9C22232E677000EEF25 /* Fake6.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BB2232E676000EEF25 /* Fake6.png */; };
 		BC6BD9C32232E677000EEF25 /* Fake8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BC2232E676000EEF25 /* Fake8.png */; };
 		BC6BD9C42232E677000EEF25 /* Fake7.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BD2232E676000EEF25 /* Fake7.png */; };
-		BC6BD9C52232E677000EEF25 /* Fake2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BE2232E676000EEF25 /* Fake2.png */; };
 		BC6BD9C62232E677000EEF25 /* Fake3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9BF2232E676000EEF25 /* Fake3.png */; };
 		BC6BD9C72232E677000EEF25 /* Fake4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6BD9C02232E677000EEF25 /* Fake4.png */; };
 		BCEDF75A223606C800BBC2D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDF759223606C800BBC2D9 /* SecondViewController.m */; };
@@ -35,6 +34,9 @@
 		BCEDF766223B34AE00BBC2D9 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDF765223B34AD00BBC2D9 /* menu.png */; };
 		BCEDF768223B34E600BBC2D9 /* Restart.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDF767223B34E600BBC2D9 /* Restart.png */; };
 		BCEDF76A223B355800BBC2D9 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDF769223B355800BBC2D9 /* start.png */; };
+		BCEDF770223B611700BBC2D9 /* startLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDF76F223B611600BBC2D9 /* startLogo.png */; };
+		BCEDF774223B65A900BBC2D9 /* Fake2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDF773223B65A900BBC2D9 /* Fake2.png */; };
+		BCEDF778223B667600BBC2D9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDF777223B667600BBC2D9 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +61,6 @@
 		BC6BD9BB2232E676000EEF25 /* Fake6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake6.png; sourceTree = "<group>"; };
 		BC6BD9BC2232E676000EEF25 /* Fake8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake8.png; sourceTree = "<group>"; };
 		BC6BD9BD2232E676000EEF25 /* Fake7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake7.png; sourceTree = "<group>"; };
-		BC6BD9BE2232E676000EEF25 /* Fake2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake2.png; sourceTree = "<group>"; };
 		BC6BD9BF2232E676000EEF25 /* Fake3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake3.png; sourceTree = "<group>"; };
 		BC6BD9C02232E677000EEF25 /* Fake4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake4.png; sourceTree = "<group>"; };
 		BCEDF758223606C800BBC2D9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -71,6 +72,9 @@
 		BCEDF765223B34AD00BBC2D9 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		BCEDF767223B34E600BBC2D9 /* Restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restart.png; sourceTree = "<group>"; };
 		BCEDF769223B355800BBC2D9 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		BCEDF76F223B611600BBC2D9 /* startLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startLogo.png; sourceTree = "<group>"; };
+		BCEDF773223B65A900BBC2D9 /* Fake2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fake2.png; sourceTree = "<group>"; };
+		BCEDF777223B667600BBC2D9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +107,16 @@
 		BC6BD9872231A61B000EEF25 /* MemeOrTrumpGame */ = {
 			isa = PBXGroup;
 			children = (
+				BCEDF777223B667600BBC2D9 /* logo.png */,
 				BCEDF767223B34E600BBC2D9 /* Restart.png */,
 				BCEDF769223B355800BBC2D9 /* start.png */,
+				BCEDF76F223B611600BBC2D9 /* startLogo.png */,
 				BCEDF765223B34AD00BBC2D9 /* menu.png */,
 				BCEDF763223B344F00BBC2D9 /* score.png */,
+				BCEDF773223B65A900BBC2D9 /* Fake2.png */,
 				BCEDF75F223B339600BBC2D9 /* real1.png */,
 				BCEDF75D223B335800BBC2D9 /* fake.png */,
 				BCEDF75B223B32BE00BBC2D9 /* real.png */,
-				BC6BD9BE2232E676000EEF25 /* Fake2.png */,
 				BC6BD9BF2232E676000EEF25 /* Fake3.png */,
 				BC6BD9C02232E677000EEF25 /* Fake4.png */,
 				BC6BD9BA2232E675000EEF25 /* Fake5.png */,
@@ -196,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEDF778223B667600BBC2D9 /* logo.png in Resources */,
 				BC6BD9C32232E677000EEF25 /* Fake8.png in Resources */,
 				BC6BD9952231A620000EEF25 /* LaunchScreen.storyboard in Resources */,
 				BCEDF766223B34AE00BBC2D9 /* menu.png in Resources */,
@@ -205,10 +212,12 @@
 				BCEDF760223B339600BBC2D9 /* real1.png in Resources */,
 				BC6BD9B02232E06C000EEF25 /* Trump4.jpeg in Resources */,
 				BC6BD9C62232E677000EEF25 /* Fake3.png in Resources */,
+				BCEDF774223B65A900BBC2D9 /* Fake2.png in Resources */,
 				BC6BD9922231A620000EEF25 /* Assets.xcassets in Resources */,
 				BCEDF76A223B355800BBC2D9 /* start.png in Resources */,
 				BC6BD9B92232E06C000EEF25 /* Fake1.png in Resources */,
 				BC6BD9B12232E06C000EEF25 /* Trump3.jpeg in Resources */,
+				BCEDF770223B611700BBC2D9 /* startLogo.png in Resources */,
 				BC6BD9902231A61B000EEF25 /* Main.storyboard in Resources */,
 				BCEDF75C223B32BE00BBC2D9 /* real.png in Resources */,
 				BCEDF75E223B335800BBC2D9 /* fake.png in Resources */,
@@ -217,7 +226,6 @@
 				BC6BD9C12232E677000EEF25 /* Fake5.png in Resources */,
 				BCEDF768223B34E600BBC2D9 /* Restart.png in Resources */,
 				BC6BD9B22232E06C000EEF25 /* Trump2.jpg in Resources */,
-				BC6BD9C52232E677000EEF25 /* Fake2.png in Resources */,
 				BC6BD9C72232E677000EEF25 /* Fake4.png in Resources */,
 				BC6BD9B72232E06C000EEF25 /* Trump1.jpg in Resources */,
 			);
